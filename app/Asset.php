@@ -9,7 +9,7 @@ class Asset extends BaseCrudModel
 {
 
 	//protected $table = "assets";
-	protected $fillable = ['serial','manufacturer','model','location_id','vendor_name'];
+	protected $fillable = ['serial','part_id','vendor_id','warranty_id','location_id'];
 
 /*
     public function location()

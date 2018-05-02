@@ -37,5 +37,8 @@ Route::group([
 Route::resources([
 	'assets'    =>  'AssetApiController',
 	'parts'		=>	'PartController',
+	'partners'		=>	'PartnerController',
+	'contacts'		=>	'ContactController',
+	'contracts'		=>	'ContractController',
 //END-OF-RESOURCE-ROUTES
 ]);

@@ -58,6 +58,9 @@ class setPermissions extends Command
         $types = [
             App\Asset::class,
             App\Part::class,
+	App\Partner::class,
+	App\Contact::class,
+	App\Contract::class,
 			//END-OF-PERMISSION-TYPES
         ];
 
